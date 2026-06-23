@@ -3,7 +3,8 @@ programa {
     real preco__inicial_livro, desconto, preco_final_livro
     inteiro opcao, dias_retirados, categoria, qtd_livro
     cadeia op1
-    
+                            //USO DO LACO DE REPETICAO PARA MANTER O COMANDO ATIVO ATE OPCAO ==0
+                            //OPCAO 1 ALUGUEL DE UM LIVRO, PEDE QUANTOS DIAS O CLIENTES DESEJA ALUGAR O LIVRO
     enquanto(opcao !=0){
     escreva("---------------------------LIVRARIA SANTOS FELIZ-------------------------------")
     escreva("\n1-Alugar um livro")
@@ -161,7 +162,7 @@ programa {
           }
         
 
-
+            //OPCAO 2 SERVE PARA O CLIENTE COMPRAR UM LIVRO ,COM ISSO, NAO APARECERA A OPCAO DE QUANTODS DIAS ELE DESEJA COMPRAR
         }
         se(opcao ==2){
       op1 = "Alugar um livro"
